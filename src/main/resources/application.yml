@@ -1,0 +1,15 @@
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password:
+    url: jdbc:mysql://localhost/sell?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+
+  freemarker:
+    template-loader-path: classpath:/templates
+server:
+  context-path: /sell
+  port: 8081
